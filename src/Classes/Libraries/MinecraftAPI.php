@@ -1,8 +1,6 @@
 <?php namespace Minecraft\Libraries;
 
-//interfaces
-use Minecraft\Interfaces\APICalls\APIGets_Interface;
-use Minecraft\Interfaces\APICalls\APIPosts_Interface;
+
 
 //classes
 use Minecraft\Classes\GuzzleStart;
