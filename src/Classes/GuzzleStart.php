@@ -1,4 +1,4 @@
-<?php namespace App\Classes;
+<?php namespace Minecraft\Classes;
 
 use GuzzleHttp\Client;
 
@@ -15,8 +15,8 @@ class GuzzleStart
 
     private function configure()
     {   
-        if(file_exists(__DIR__ . '/../../config/Config.php')) {
-            $config = require_once(__DIR__ . '/../../config/Config.php');
+        if(file_exists(__DIR__ . '/../Config/Config.php')) {
+            $config = require_once(__DIR__ . '/../Config/Config.php');
         }else {
             return false;
         }
