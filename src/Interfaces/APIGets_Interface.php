@@ -1,4 +1,4 @@
-<?php namespace Minecraft\Interfaces\APICalls;
+<?php namespace Minecraft\Interfaces;
 
 interface APIGets_Interface
 {
