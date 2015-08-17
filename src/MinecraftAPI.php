@@ -23,4 +23,22 @@ class MinecraftAPI extends GuzzleClientSetup
 
         return $response->id;
     }
+
+    public function getNamebyID($id = null)
+    {
+        $callPath = self::UsersURI . $name;
+
+        try {
+            $response = $this->client->get($callPath);
+            $response = json_decode($response->getBody());
+        } catch (\GuzzleHttp\Exception\ClientException $e) {
+            return null;
+        }
+
+        if(is_null($response)) {
+            return null;
+        }
+
+        return $response->name;
+    }
 }
