@@ -1,6 +1,6 @@
 <?php namespace Minecraft;
 
-use Minecraft\src\Http\GuzzleClientSetup;
+use Minecraft\Http\GuzzleClientSetup;
 
 class MinecraftAPI extends GuzzleClientSetup
 {
