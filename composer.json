@@ -22,8 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Minecraft\\": "src/",
-            "Minecraft\\Libraries\\": "src/Classes/Libraries/"
+            "Minecraft\\src\\": "src/"
         }
     }
 }
