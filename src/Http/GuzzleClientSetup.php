@@ -1,4 +1,4 @@
-<?php namespace Minecraft\src\Http;
+<?php namespace Minecraft\Http;
 
 use GuzzleHttp\Client;
 

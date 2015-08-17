@@ -1,4 +1,4 @@
-<?php namespace Minecraft\src;
+<?php namespace Minecraft;
 
 use Minecraft\src\Http\GuzzleClientSetup;
 

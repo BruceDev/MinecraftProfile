@@ -1,6 +1,6 @@
 <?php
 
-use Minecraft\src\MinecraftAPI;
+use Minecraft\MinecraftAPI;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
